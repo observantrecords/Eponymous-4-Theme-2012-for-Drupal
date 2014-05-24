@@ -109,8 +109,8 @@ if (!empty($album_aliases)):
 						print theme('links', array(
 							'links' => menu_navigation_links('menu-footer-menu---information'),
 							'heading' => array(
-								'text' => 'More Information',
-								'level' => 'h3'
+								'text' => 'See also ...',
+								'level' => 'h4'
 							),
 							));
 						?>
