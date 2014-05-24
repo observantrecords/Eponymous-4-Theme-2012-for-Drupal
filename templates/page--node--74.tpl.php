@@ -1,6 +1,6 @@
 		<div id="container" class="container">
-			<div id="masthead">
-				<header>
+			<div id="masthead" class="row">
+				<header class="col-md-6">
 					<?php if ($site_name): ?>
 					<h1 id="title">
 						<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home">
@@ -10,19 +10,15 @@
 					<?php endif; ?>
 				</header>
 
-				<nav id="nav-column-1">
+				<nav id="nav-column-1" class="col-md-6">
 					<?php if ($main_menu): ?>
 					<?php print theme('links__system_main_menu', array('links' => $main_menu)); ?>
 					<?php endif; ?>
 				</nav>
-
-				<nav id="nav-column-2">
-					<?php print theme('ext_link_top_nav'); ?>
-				</nav>
 			</div>
 
-			<div id="content">
-				<div id="music-index">
+			<div id="content" class="row">
+				<div id="music-index"class="col-md-12">
 				<?php if ($messages): ?>
 					<section id="success">
 					<?php print $messages; ?>
@@ -41,4 +37,28 @@
 
 			</div>
 		</div>
+		<div id="footer">
+			<div class="container">
+				<footer class="row">
+					<nav id="footer-column-1" class="col-md-6">
+						<?php print theme('ext_link_top_nav'); ?>
+						
+						<p>
+							&copy <?php echo date('Y'); ?> Eponymous 4
+						</p>
+					</nav>
+					
+					<section id="footer-column-2" class="col-md-6">
+						<?php
+						print theme('links', array(
+							'links' => menu_navigation_links('menu-footer-menu---information'),
+							'heading' => array(
+								'text' => 'More Information',
+								'level' => 'h3'
+							),
+							));
+						?>
+					</section>
+				</footer>
+			</div>
 

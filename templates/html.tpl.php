@@ -52,13 +52,13 @@
 		?></title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="<?php echo OBSERVANTRECORDS_CDN_BASE_URI; ?>/web/css/blueprint/screen.css" type="text/css" media="screen, projection" />
-		<link rel="stylesheet" href="<?php echo OBSERVANTRECORDS_CDN_BASE_URI; ?>/web/css/blueprint/print.css" type="text/css" media="print" />
-		<!--[if lt IE 8]><link rel="stylesheet" href="<?php echo OBSERVANTRECORDS_CDN_BASE_URI; ?>/web/css/blueprint/ie.css" type="text/css" media="screen, projection" /><![endif]-->
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 		<!--[if lt IE 9]><script type="text/javascript" src="<?php echo OBSERVANTRECORDS_CDN_BASE_URI; ?>/web/js/html5.js"></script><![endif]-->
 		<link rel="stylesheet" href="<?php echo OBSERVANTRECORDS_CDN_BASE_URI; ?>/web/css/facebox.css" type="text/css" media="screen, projection" />
 		<?php print $styles; ?>
 		<?php print $scripts; ?>
+		<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="<?php echo OBSERVANTRECORDS_CDN_BASE_URI; ?>/web/js/jquery.swfobject.js"></script>
 		<script type="text/javascript" src="<?php echo OBSERVANTRECORDS_CDN_BASE_URI; ?>/web/js/jquery.swfobject.ext.js"></script>
 		<script type="text/javascript" src="<?php echo OBSERVANTRECORDS_CDN_BASE_URI; ?>/web/js/jquery.validate.pack.js"></script>
