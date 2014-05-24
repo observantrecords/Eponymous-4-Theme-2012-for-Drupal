@@ -6,10 +6,6 @@
 
 <div id="hallelujah" class="append-bottom">[Error: Flash player did not load.]</div>
 
-<h3>NaSoPiAlMo No. 4</h3>
-
-<div id="nasopialmo_no_4" class="append-bottom">[Error: Flash player did not load.]</div>
-
 <h3>Don't Disturb This Groove</h3>
 
 <div id="dont_disturb_this_groove" class="append-bottom">[Error: Flash player did not load.]</div>

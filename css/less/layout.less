@@ -27,26 +27,15 @@ body {
 }
 
 #masthead {
-	float: left;
-	width: 870px;
-	margin-right: 0;
-	padding-left: 40px;
-	padding-right: 40px;
 	ul {
 		list-style-type: none;
 	}
 }
 
 #masthead header {
-	float: left;
-	width: 270px;
-	margin-right: 10px;
 }
 
 #nav-column-1 {
-	float: left;
-	width: 390px;
-	margin-right: 10px;
 	margin-top: 1.5em;
 	ul.links {
 		li {
@@ -59,53 +48,40 @@ body {
 }
 
 #nav-column-2 {
-	float: left;
-	width: 190px;
-	margin-right: 0px;
 	margin-top: 1.5em;
 }
 
-#nav-social li {
-	float: left;
-	margin: 0;
-	padding: 0;
-	margin-left: 6px;
+ul#nav-social {
+	margin-top: 20px;
+	padding-left: 0px;
+	margin-left: 0px;
+	li {
+    	display: inline-block;
+    	margin: 0;
+    	padding: 0;
+		margin-left: 6px;
+	}
 }
 
 #content {
 	#featured {
-		float: left;
-		width: 870px;
-		margin-right: 0px;
-		padding-left: 40px;
-		padding-right: 40px;
 		margin-bottom: 1.5em;
 	}
 	#column-1 {
-		float: left;
-		width: 550px;
-		margin-right: 10px;
-		padding-left: 40px;
-		padding-right: 40px;
 	}
 	#column-2 {
-		float: left;
-		width: 230px;
-		margin-right: 0;
-		padding-left: 40px;
-		padding-right: 40px;
 	}
 	#music-index {
-		float: left;
-		width: 870px;
-		margin-right: 0;
-		padding-left: 40px;
-		padding-right: 40px;
 	}
 }
 
 #album_player {
 	margin: 0 0 1em;
+}
+
+#footer {
+	background-color: #C9C9C9;
+	background-image: url('white_carbonfiber.png');
 }
 
 label
@@ -143,6 +119,7 @@ img.bg
 
 table.track-table
 {
+    margin-top: 1em;
 	border: 1px dotted @dark-red-brown;
 	border-collapse: collapse;
 	thead {
@@ -195,17 +172,14 @@ ul.album-list
 }
 
 .node {
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-top: 1.5em;
+    padding-left: 15px;
+    padding-right: 15px;
 	margin-bottom: 1.5em;
 	background-color: #FFF;
 	color: #000;
 }
 
 .views-row {
-	background-color: #FFF;
-	color: #000;
 }
 
 .button {

@@ -1,5 +1,5 @@
 <?php if (count($tracks) > 0): ?>
-<table class="track-table">
+<table class="track-table table table-striped">
 	<thead>
 		<tr>
 			<th class="track-column">Track</th>
